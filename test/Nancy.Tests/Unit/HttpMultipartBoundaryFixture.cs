@@ -64,7 +64,7 @@
             var boundary = new HttpMultipartBoundary(stream);
 
             // Then
-            boundary.Filename.ShouldEqual("sample.txt");
+            boundary.Filename.ShouldEqual("foo-ä.html");
         }
 
         [Fact]
